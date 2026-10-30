@@ -1,0 +1,153 @@
+## Emojis
+activeAccountEmoji: ✅
+audioEmoji: 🎵
+fileEmoji: 📄
+folderEmoji: 📁
+progressBarEmptyEmoji: ▢
+progressBarFilledEmoji: ▣
+selectedOptionEmoji: ✅
+videoEmoji: 🎬
+
+## Buttons
+accountsBtn: 🗂️ Accounts
+accountInfoBtn: 👤 My Account
+addAccountBtn: ➕ Add another account
+activeDownloadsBtn: ⌛ Active Downloads
+authorizeWithDeviceBtn: 📱 Authorize with device (Recommended)
+backBtn: 🔙 Back
+cancelBtn: ❌ Cancel
+createAccountBtn: "🚀 Create a Free Account"
+deleteBtn: ⛔ Delete
+doneBtn: ✅ Done
+downloadFileBtn: ⬇️ Download File
+downloadFolderBtn: 📦 Download Folder
+fileManagerBtn: 📂 File Manager
+getLinkBtn: 🔗 Download Link
+infoBtn: ℹ️ Info
+loginBtn: ➕ Log In
+loginWithEmailBtn: 📧 Login with email/password
+logoutBtn: ➜] Logout
+m3uBtn: M3U
+nextBtn: Next ▶️
+noBtn: ❌ No
+playlistBtn: ▶️ Play
+previousBtn: ◀️ Previous
+signupBtn: 📝 Sign up
+vlcBtn: VLC
+xspfBtn: XSPF
+upgradeToPremiumBtn: ⚡ Upgrade to Premium
+yesBtn: ✅ Yes
+
+## Labels
+bandwidthUsedTotalLabel: "Total bandwidth used:"
+downloadLinkLabel: Download Link
+filesLabel: "Files:"
+folderDownloadLinkLabel: Folder Download Link
+foldersLabel: "Folders:"
+invitesAcceptedLabel: "Invites Accepted:"
+invitesAvailableLabel: "Invites available:"
+inviteLinkLabel: "Invite Link:"
+lastUpdatedLabel: "Last Updated:"
+leechersLabel: "Leechers:"
+noLabel: No
+pageLabel: "Page:"
+progressLabel: "Progress:"
+rootLabel: Root
+seedersLabel: "Seeders:"
+sizeLabel: "Size:"
+speedLabel: "Speed:"
+storageLabel: "Storage:"
+totalAccountsLabel: "Total Accounts:"
+usernameLabel: "Username:"
+usedLabel: "Used:"
+yesLabel: yes
+
+## Messages
+accountNotFound: ⚠️ Account not found.
+accountRemoved: ✅ Successfully logged out.
+accountSwitched: ✅ Switched to <b>{username}</b>.
+alreadyActive: ✅ This account is already active.
+authorize: |
+  ️ <b>Please follow the instructions to authorize your account</b>
+
+  • Go to https://seedr.cc/devices
+  • Login your account if not logged in
+  • Paste the following code (Click to copy)
+
+  <b>CODE: <code>{code}</code></b>
+
+  • Click the <b>✅ Done</b> button after completion.
+cancelled: ❌ Cancelled
+cannotDetermineFolder: ⚠️ Could not determine the file's folder. Cannot show details.
+confirmLogout: ⚠️ Confirm Logout
+confirmLogoutAccount: "Are you sure you want to log out of <b>{username}</b>?"
+conversationTimeout: ⌛ Conversation timed out. Please try again.
+deletedSuccessfully: 🙌  The selected item is deleted successfully.
+downloadAddedSuccessfully: 🙌 Your download has been added to the queue.
+downloadAlreadyInQueue: ℹ️ This item is already in your download queue.
+downloadAddedToWishlist: |
+  ⚠️ <b>Your download queue is full.</b>
+
+  Please wait for an active download to complete or cancel one to continue.
+downloadCancelled: ✅ Download successfully cancelled.
+downloadNotFound: 🤷‍♂️ This download is no longer active. It may have been completed or cancelled.
+enterEmail: ✉️ Enter your account email address.
+enterPasswordFor: 🔑 Enter your account password for <b>{email}</b>.
+errorFetchingLink: 🔗 Could not fetch the download link.
+fileNotFound: ⚠️ File not found in the folder.
+fileTooLarge: ⚠️ The file is too large. Please upload a file smaller than {max_size} MB.
+fileUploadNotSupported: ⚠️ File upload is not supported yet.
+greet: |
+  👋 Welcome back to the <b>{bot_name}</b>!
+
+  - 📥 Send a magnet link or upload a torrent file to start downloading.
+  - 📂 Browse and manage your cloud files.
+  - ▶️ Generate playlists to stream media.
+
+  Choose an option below to get started!
+incorrectPassword: ⚠️ Incorrect email or password. If the issue persists, try the <b>Authorize with device</b> method.
+invalidMagnet: 🧲 Invalid magnet link.
+loggedInAs: 💫 Successfully logged in as <b>{username}</b>.
+loggingIn: ⟳ Logging in...
+loginMessage: Please choose a login method below.
+noAccount: ⚠️ You must log in to an account to use this feature.
+noActiveDownloads: 🤝 You don't have any active downloads.
+noFiles: 📂 There are no files in this folder.
+noPlayableMedia: ⚠️ This folder doesn't contain any playable media.
+notEnoughSpaceAddedToWishlist: |
+  ⚠️ <b>Not enough space for this item.</b>
+
+  Please delete existing items, try a smaller item, or upgrade your account for more space.
+openInMediaCaption: |
+  Open the file above to stream in your favorite media player (like VLC).
+
+  <b>⚠️ If playback fails, try a different playlist format below.</b>
+pausedDownloadWarning: "⚠️ This download is paused, likely due to a lack of seeders. You can try adding a new torrent or retrying later."
+processing: ↻ Processing
+selectDownload: "Please select a download to view its progress"
+signupMessage: Click the button below to create a new Seedr account.
+somethingWrong: ⚠️ An unexpected error occurred. Please try again.
+storePasswordPrompt: |
+  <b>🔐 Save Password?</b>
+
+  We store your password encrypted on our server and use it only to automatically log you in when your session expires.
+tokenExpired: 😬 Your account token has expired. Please add your account again.
+welcomeMessage: |
+  👋 Welcome to the <b>{bot_name}</b>!
+
+  By using this bot, you can manage your Seedr account directly from Telegram.
+
+  - 📥 Add magnet links to download files
+  - 📂 Browse and manage your cloud storage
+  - ▶️ Generate playlists to stream media
+
+  To get started, please <b>Log In</b> to an existing account or <b>Sign Up</b> for a new one.
+
+## Command Descriptions
+accountsCmdDesc: 🗂️ Manage your accounts
+activeCmdDesc: ⌛ View active downloads
+filesCmdDesc: 📂 Browse your files
+infoCmdDesc: ℹ️ Get account information
+loginCmdDesc: ➕ Log in to an account
+signupCmdDesc: 🚀 Create a new account
+startCmdDesc: 👋 Start the bot
